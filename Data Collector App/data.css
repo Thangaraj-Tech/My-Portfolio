@@ -1,0 +1,108 @@
+body{
+     background-color: #f4f8fb;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.card{
+    width: 500px;
+    margin: 20px ;
+    border-radius: 20px;
+   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+form{
+    width: auto;
+    margin: auto;
+    padding: 50px;
+    /* background-image: url(download.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    object-fit: cover; */
+    border-radius: 10px;
+    
+    
+}
+
+.card h1{
+    text-align: center;
+    color: chartreuse;
+}
+.card img{
+    display: block;
+    width: 400px;
+    height: 200px;
+    margin:auto;
+    object-fit: cover;
+}
+label{
+    font-size: 20px;
+    display: block;
+    margin: 10px 0 5px;
+    color: black;
+    font-weight: bolder;
+}
+input{
+    width: 100%;
+    border-radius: 20px;
+    padding: 5px;
+    margin-bottom: 15px;
+    border: 2px solid red;
+    font-size: 14px;
+}
+select{
+    width: 100%;
+    border-radius:20px;
+    padding: 5px;
+    font-size: 14px;
+    border: 2px solid red;
+}
+input:hover{
+    border: 2px solid green;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0,123,255,0.5);
+}
+select:hover{
+    border: 2px solid green;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0,123,255,0.5);
+}
+button{
+    background-color: black;
+    width: 100%;
+    color: red;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    display: block;
+    margin: 10px;
+
+}
+button:hover{
+    background-color: white;
+    color: black;
+}
+
+#data{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+#data table{
+    border-collapse: collapse;
+    width: 100%;
+}
+th,td{
+    padding: 5px;
+    text-align: center;
+}
+#data h1{
+    color: darkblue;
+    margin-bottom: 10px;
+}

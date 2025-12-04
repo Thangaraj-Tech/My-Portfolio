@@ -1,0 +1,20 @@
+{
+  "employees": [
+    {
+      "id": "1284",
+      "name": "Thangaraj",
+      "empid": "123",
+      "emprole": "developer",
+      "empexp": "3",
+      "empjoin": "2025-10-26"
+    },
+    {
+      "id": "272b",
+      "name": "Sanjay",
+      "empid": "23",
+      "emprole": "designer",
+      "empexp": "3",
+      "empjoin": "2025-10-24"
+    }
+  ]
+}
