@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+
+<body>
+    <nav class="navbar" data-aos="slide-down">
+        <div class="logo">MyPortfolio</div> 
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">☰</div>
+    </nav>
+    <main id="home">
+        <p>Hi, I'm Thangaraj — I design and develop modern, responsive websites that bring ideas to life.</p>
+        <img src="/images/profile.jpeg" alt="bike">
+        
+    </main>
+<a href="https://drive.google.com/file/d/1bFpQuZxQAy-YhOIKGGXq7H4ik1z1B8bk/view?usp=drive_link" target="_blank" class="btn">View Resume</a>
+
+    <div id="about">
+        <h1>About Me</h1>
+        <div id="content2">
+
+            <p>I'm Thangaraj, a Frontend Developer from Tamil Nadu, passionate about creating responsive and
+                user-friendly websites. Skilled in HTML, CSS,JavaScript and React. I have built projects such as a To-Do List
+                application,Personal Portfolio and Data Collector App. which strengthened my hands-on development experience. I enjoy
+                solving problems through clean, efficient code and continuously improving my design and development
+                skills. I am eager to join a tech-driven team where I can contribute, collaborate, and grow while
+                learning new technologies every day.</p>
+            <p id="p">"Design is intelligence made visible.Code bring it to life."</p>
+            <p><strong>Name:</strong><span class="light">Thangaraj</span></p>
+            <p><strong>DOB:</strong><span class="light">May 20,2002</span></p>
+            <p><strong>Address:</strong><span class="light">Tenkasi,TamilNadu,India</span></p>
+            <p><strong>Zip code:</strong><span class="light">627415</span></p>
+            <p><strong>Email:</strong><span class="light">2002thangaraj@gmail.com</span></p>
+            <p><strong>Phone:</strong><span class="light">+91-9360224130</span></p>
+        </div>
+    </div>
+
+    </div>
+    <div id="skills">
+        <h1>My Skills</h1>
+        <div id="myskills">
+            <div class="skill">
+                <img src="/images/Html (2).png" alt="html">
+                <p><strong>HTML</strong></p>
+                <p>95%</p>
+            </div>
+            <div class="skill">
+                <img src="/images/CSS.png" alt="css">
+                <p><strong>CSS</strong></p>
+                <p>90%</p>
+            </div>
+            <div class="skill">
+                <img src="/images/javascript.png" alt="javascript">
+                <p><strong>JavaScript</strong></p>
+                <p>70%</p>
+            </div>
+            <div class="skill">
+                <img src="/images/react.png" alt="react" height="109px" width="109px">
+                <p><strong>React Js</strong></p>
+                <p>60%</p>
+            </div>
+
+        </div>
+    </div>
+    <div id="project-container">
+        <h1>My Projects</h1>
+        <div id="projects">
+            <div class="project">
+                <h2>Online Car Rental System</h2>
+                <hr>
+                <p>Developed a web-based application that allows users to browse, book, and manage car rentals
+                    efficiently.
+                    The system provides features for user registration, vehicle availability checking, and secure
+                    booking management.
+                    Implemented an admin panel for managing cars, users, and rental records. This project improves
+                    convenience and automation in the car rental process through an easy-to-use interface and real-time
+                    data handling.</p>
+            </div>
+            <div class="project">
+                <h2>My Portfolio</h2>
+                <hr>
+                <p>Developed a responsive personal portfolio website to showcase my projects and skills.
+                    Built using HTML, CSS, and JavaScript with a clean and modern UI design.
+                    The site includes interactive sections such as About, Projects, and Contact for easy navigation.
+                    This project highlights my front-end development skills and serves as my professional online
+                    presence.</p>
+
+            </div>
+
+        </div>
+
+    </div>
+    <div id="Contact-container">
+        <h1>Get In Touch</h1>
+        <div id="contact-form">
+            
+                <form action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="a3648e75-0a97-40ff-88b8-4cd192e1df54">
+                    <input type="text" name="name" required placeholder="Your Name">
+                    <input type="email" name="email" required placeholder="Your Email">
+                    <textarea name="message" required placeholder="Your Message"></textarea>
+                    <button type="submit">Submit Form</button>
+                </form>
+
+
+        </div>
+
+    </div>
+    <div>
+        <footer>
+            <h2>THANGARAJ.DEV</h2>
+            <p>Crafting frontend experiences with code & creativity</p>
+            <div class="social-links">
+                <a href="https://github.com/THANGARAJ007" target="_blank">
+                    <i class="fa-brands fa-github"></i> GitHub
+                </a>
+                <a href="https://wa.me/9360224130" target="_blank">
+                    <i class="fa-brands fa-whatsapp"></i> WhatsApp
+                </a>
+            </div>
+            <p>&copy; Thangaraj.All rights reserved.</p>
+        </footer>
+    </div>
+<script>
+    const hamburger = document.querySelector('.hamburger');
+  const navLinks = document.querySelector('.nav-links');
+  const navItems = document.querySelectorAll('.nav-links a');
+  hamburger.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+  });
+
+  navItems.forEach(link => {
+    link.addEventListener('click', () => {
+      navLinks.classList.remove('active');
+    });
+  });
+</script>
+
+</body>
+
+</html>
